@@ -10,3 +10,19 @@ li a:hover::before{width: 100%;}
 .visit-btn:hover{background:linear-gradient(to right,rgb(255,0,255),rgb(255,0,255));}
 #menu-icon{font-size: 2rem;display: none;}
 section{min-height: 100vh;padding:8rem 12%;display: flex;align-items: center;justify-content: center;}
+.about{display: flex;align-items: center;gap: 10rem;}
+.about .about-container{flex: 1;align-items: center;justify-content: center;gap: 10 rem;}
+.about img {width: 30vw;border-radius:60%;}
+.info-box{display:flex;flex-direction:column;text-align:center;justify-content: center;gap:1.5rem ;}
+.info-box h3{font-size:1.8 rem;font-weight:500;opacity:0.8;}
+.info-box h1{font-size: 4rem;font-weight:600;}
+.info-box Span{background:linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));background-clip:text;color:transparent;font-size: 2rem}
+.btn-group{display:flex;gap:1rem;}
+.btn{border-radius: 3rem;padding: 0.5rem 1.5rem;border: 2px solid black;cursor:pointer;font-weight: 500;text-wrap:nowrap;transition:0.2s ease-in-out;}
+.btn:hover{background-color:black;color:white;}
+.social{display:flex;gap:2rem;}
+.socials i{font-size:2.5rem;cursor:pointer;transition:0.2s ease-in-out;}
+.section-title{text-align:center;font-size:4rem;font-weight:600;margin-bottom:3rem;}
+.experience-info{display:flex;align-items:center;justify-content: center;gap:5rem;}
+.experience img{width: 24vw;border-radius: 3rem;}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;}
